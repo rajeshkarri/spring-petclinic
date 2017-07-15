@@ -32,7 +32,18 @@
     <cobertura.version>2.7</cobertura.version>
 
   </properties>
-
+  <distributionManagement>
+        <repository>
+            <id>Spring</id>
+            <name>Internal Releases</name>
+            <url>http://192.168.111.149:8081/repository/spring-Release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>Spring</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://192.168.111.149:8081/repository/Spring-snashot/</url>
+        </snapshotRepository>
+ </distributionManagement>
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
